@@ -1,0 +1,423 @@
+{
+  "PhC-C2DL-PSC": {
+    "source": "ctc",
+    "n_frames": 300,
+    "n_targets": 189.25,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.006678938643324525,
+        "min_s_per_frame": 0.006252234990000337,
+        "runs_s_per_frame": [
+          0.007385703879990615,
+          0.006252234990000337,
+          0.006398877059982624
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.008192104992227138,
+        "min_s_per_frame": 0.005699756403337233,
+        "runs_s_per_frame": [
+          0.006576252343365923,
+          0.012300306229978257,
+          0.005699756403337233
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.005065513785537203,
+        "min_s_per_frame": 0.004962415316646609,
+        "runs_s_per_frame": [
+          0.0050545412366530705,
+          0.004962415316646609,
+          0.00517958480331193
+        ]
+      }
+    }
+  },
+  "BF-C2DL-HSC": {
+    "source": "ctc",
+    "n_frames": 100,
+    "n_targets": 142.53,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.00728485272329029,
+        "min_s_per_frame": 0.007109323199983919,
+        "runs_s_per_frame": [
+          0.007576283359958325,
+          0.007109323199983919,
+          0.0071689516099286265
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.007434788976679557,
+        "min_s_per_frame": 0.0072116864999406975,
+        "runs_s_per_frame": [
+          0.007314242330030538,
+          0.0072116864999406975,
+          0.007778438100067433
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.00766374851334452,
+        "min_s_per_frame": 0.007340941349975765,
+        "runs_s_per_frame": [
+          0.0078093328399700115,
+          0.007840971350087784,
+          0.007340941349975765
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.006233164046619398,
+        "min_s_per_frame": 0.005949103159946389,
+        "runs_s_per_frame": [
+          0.006696615199907683,
+          0.005949103159946389,
+          0.006053773780004121
+        ]
+      }
+    }
+  },
+  "hydra": {
+    "source": "hydra",
+    "n_frames": 100,
+    "n_targets": 724.94,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.05074626302996573,
+        "min_s_per_frame": 0.048980625169933775,
+        "runs_s_per_frame": [
+          0.05065822296994156,
+          0.048980625169933775,
+          0.052599940950021844
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.03723042808002599,
+        "min_s_per_frame": 0.03297865253000055,
+        "runs_s_per_frame": [
+          0.03297865253000055,
+          0.03333895001007477,
+          0.04537368170000264
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.04258698905997638,
+        "min_s_per_frame": 0.03138306284003192,
+        "runs_s_per_frame": [
+          0.06380931513995165,
+          0.03256858919994556,
+          0.03138306284003192
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.030563299789937447,
+        "min_s_per_frame": 0.028634577899938448,
+        "runs_s_per_frame": [
+          0.03363635285000782,
+          0.028634577899938448,
+          0.029418968619866065
+        ]
+      }
+    }
+  },
+  "BF-C2DL-MuSC": {
+    "source": "ctc",
+    "n_frames": 100,
+    "n_targets": 18.02,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.002568183853290975,
+        "min_s_per_frame": 0.0024172269098926336,
+        "runs_s_per_frame": [
+          0.0024172269098926336,
+          0.0026318106599501332,
+          0.0026555139900301585
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0031353451066145985,
+        "min_s_per_frame": 0.002545502430002671,
+        "runs_s_per_frame": [
+          0.002545502430002671,
+          0.0038700800998776683,
+          0.002990452789963456
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0038585903032799253,
+        "min_s_per_frame": 0.0029850370399071833,
+        "runs_s_per_frame": [
+          0.0034831092199601697,
+          0.005107624649972422,
+          0.0029850370399071833
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.0025905242700052134,
+        "min_s_per_frame": 0.0024845996500516775,
+        "runs_s_per_frame": [
+          0.0024845996500516775,
+          0.0026468754500092472,
+          0.002640097709954716
+        ]
+      }
+    }
+  },
+  "DIC-C2DH-HeLa": {
+    "source": "ctc",
+    "n_frames": 84,
+    "n_targets": 11.761904761904763,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.0014529780118974732,
+        "min_s_per_frame": 0.0013068347974954772,
+        "runs_s_per_frame": [
+          0.0013533093096200553,
+          0.0013068347974954772,
+          0.0016987899285768869
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0016549602261788788,
+        "min_s_per_frame": 0.001569174035726714,
+        "runs_s_per_frame": [
+          0.0018118939167054901,
+          0.0015838127261044324,
+          0.001569174035726714
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0017582961070671907,
+        "min_s_per_frame": 0.0016195737260291242,
+        "runs_s_per_frame": [
+          0.0019822539524327674,
+          0.0016730606427396804,
+          0.0016195737260291242
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.0013809921627052106,
+        "min_s_per_frame": 0.0013125415475986387,
+        "runs_s_per_frame": [
+          0.0014315923333578255,
+          0.0013988426071591675,
+          0.0013125415475986387
+        ]
+      }
+    }
+  },
+  "Fluo-C2DL-MSC": {
+    "source": "ctc",
+    "n_frames": 48,
+    "n_targets": 3.9166666666666665,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.0011924516944014209,
+        "min_s_per_frame": 0.001157757937410982,
+        "runs_s_per_frame": [
+          0.0012576147291838424,
+          0.001157757937410982,
+          0.001161982416609438
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0012166070416949675,
+        "min_s_per_frame": 0.001200788270883398,
+        "runs_s_per_frame": [
+          0.0012047513958653628,
+          0.001200788270883398,
+          0.0012442814583361421
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0015446728124920307,
+        "min_s_per_frame": 0.0015251513956779188,
+        "runs_s_per_frame": [
+          0.001529734145757781,
+          0.0015251513956779188,
+          0.0015791328960403916
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.001291741104271043,
+        "min_s_per_frame": 0.0012742638543083256,
+        "runs_s_per_frame": [
+          0.0012848307499856066,
+          0.0012742638543083256,
+          0.0013161287085191968
+        ]
+      }
+    }
+  },
+  "Fluo-N2DH-GOWT1": {
+    "source": "ctc",
+    "n_frames": 92,
+    "n_targets": 24.858695652173914,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.0032792880290113662,
+        "min_s_per_frame": 0.003144314695616587,
+        "runs_s_per_frame": [
+          0.003144314695616587,
+          0.003341637923965565,
+          0.0033519114674519465
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.00299455284054958,
+        "min_s_per_frame": 0.0027134494674733696,
+        "runs_s_per_frame": [
+          0.0027134494674733696,
+          0.00314792358688504,
+          0.0031222854672903295
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.003588235934739055,
+        "min_s_per_frame": 0.0033643265868823105,
+        "runs_s_per_frame": [
+          0.0037748951195364657,
+          0.0033643265868823105,
+          0.003625486097798389
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.0031979933659570543,
+        "min_s_per_frame": 0.002784249184870809,
+        "runs_s_per_frame": [
+          0.0032838601955913677,
+          0.003525870717408986,
+          0.002784249184870809
+        ]
+      }
+    }
+  },
+  "Fluo-N2DL-HeLa": {
+    "source": "ctc",
+    "n_frames": 92,
+    "n_targets": 275.8478260869565,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.012664911300764315,
+        "min_s_per_frame": 0.012479529293594405,
+        "runs_s_per_frame": [
+          0.012479529293594405,
+          0.012796167934815774,
+          0.012719036673882763
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.015519008902260068,
+        "min_s_per_frame": 0.011105691184797173,
+        "runs_s_per_frame": [
+          0.011105691184797173,
+          0.01503704534796112,
+          0.020414290174021913
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.01697458437316211,
+        "min_s_per_frame": 0.010715461999928306,
+        "runs_s_per_frame": [
+          0.027863322837061867,
+          0.010715461999928306,
+          0.012344968282496151
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.009730401039817387,
+        "min_s_per_frame": 0.009441477282487776,
+        "runs_s_per_frame": [
+          0.010007248293455315,
+          0.009742477543509069,
+          0.009441477282487776
+        ]
+      }
+    }
+  },
+  "PhC-C2DH-U373": {
+    "source": "ctc",
+    "n_frames": 100,
+    "n_targets": 6.12,
+    "sequence": 2,
+    "backends": {
+      "scipy": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.001039620696683414,
+        "min_s_per_frame": 0.00103455621007015,
+        "runs_s_per_frame": [
+          0.00103455621007015,
+          0.0010391884398995898,
+          0.001045117440080503
+        ]
+      },
+      "lapmod": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.0011184506233257708,
+        "min_s_per_frame": 0.0010858119100157638,
+        "runs_s_per_frame": [
+          0.0011431164300302044,
+          0.0011264235299313441,
+          0.0010858119100157638
+        ]
+      },
+      "csgraph": {
+        "association": "SPARSE_OPT_ALT",
+        "mean_s_per_frame": 0.001162895936674128,
+        "min_s_per_frame": 0.0011508898400643375,
+        "runs_s_per_frame": [
+          0.0011659564799629152,
+          0.0011718414899951313,
+          0.0011508898400643375
+        ]
+      },
+      "laprust": {
+        "association": "OPT_ALT",
+        "mean_s_per_frame": 0.000860986069989546,
+        "min_s_per_frame": 0.0008497615400119685,
+        "runs_s_per_frame": [
+          0.0008497615400119685,
+          0.0008596359599323478,
+          0.0008735607100243215
+        ]
+      }
+    }
+  }
+}
