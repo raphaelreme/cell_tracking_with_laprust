@@ -62,6 +62,10 @@ Backends are selected by swapping `pylapy`'s dense/sparse implementation registr
 original registries are restored afterwards. Results are stored in
 [`results/benchmark.json`](results/benchmark.json).
 
+> [!NOTE]
+> All timings reported here were measured on a multi-core CPU laptop; absolute numbers will vary with
+> hardware, but the relative trends between backends are what matters.
+
 ## Results
 
 ![LAP backend runtime vs. number of targets](results/runtime_vs_targets.png)
